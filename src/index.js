@@ -17,6 +17,7 @@ app.use(morgan('dev'));
 
 
 //routes
+app.use(require('./routes/index'))
 
 //static files
 
